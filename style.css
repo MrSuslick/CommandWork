@@ -14,6 +14,9 @@ body {
     user-select: none;
     cursor: pointer;
 }
+.block{
+    background-color: rgb(39, 38, 38);
+}
 .nav-item:hover{
     color: red;
 }
