@@ -45,3 +45,42 @@ nav {
     margin-right: 1em;
     justify-content: center;
 }
+
+section {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 6vw;
+    box-sizing: border-box;
+    min-height: 50vh;
+}
+
+.header_right{
+    flex-direction: row;
+    display:flex;
+    margin:40px;
+    justify-content: center;
+    text-align:center;
+    
+
+}
+.h1{
+    size: 50px;
+}
+
+.p{
+    font-size:5px;
+}
+
+.txt{
+    flex-direction: column;
+    display:flex;
+    margin-left:20px;
+    font-size:14px;
+}
+
+.imgg{
+    margin:20px;
+}
