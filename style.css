@@ -45,6 +45,43 @@ nav {
     margin-right: 1em;
     justify-content: center;
 }
+.main{
+    width: 100%;
+    position: relative;
+    text-align: center;
+    color: white;
+}
+.birdfly{
+    filter: brightness(40%);
+    width: 100%;
+}
+.centered-z {
+    position: absolute;
+    width: 100px;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+.odin{
+    color: rgb(206, 204, 204);
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-size: 20px ;
+    transform: translate(-50%, -50%);
+}
+section {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 6vw;
+    box-sizing: border-box;
+    min-height: 50vh;
+}
 
 section {
     width: 100%;
