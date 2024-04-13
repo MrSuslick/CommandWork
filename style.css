@@ -7,6 +7,7 @@ body {
     box-sizing: border-box;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
+
 .blocker{
     width: 50px;
     height: 10px;
@@ -145,4 +146,20 @@ section {
 
 .imgg{
     margin:20px;
+}
+.section_item{
+    display: flex;
+    flex-direction: row;
+}
+.logotip{
+    margin: 50px;
+    margin-top: 150px;
+    display: flex;
+    align-items: center center;
+    width: 100%;
+    justify-content: center;
+    flex-direction: column;
+}
+.name{
+    margin-left: 60px;
 }
