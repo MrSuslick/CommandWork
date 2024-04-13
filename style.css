@@ -118,7 +118,10 @@ section {
 .header_right{
     flex-direction: row;
     display:flex;
-    margin:40px;
+    margin-left:330px;
+    margin-right:330px;
+    margin-top: 20;
+    margin-bottom: 20;
     animation: text 3s 1;
 
     
