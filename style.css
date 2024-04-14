@@ -6,6 +6,15 @@ body {
     box-sizing: border-box;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
+.footer_content{
+    display: flex;
+    align-items: center;
+    margin-left:32%;
+
+}
+footer{
+    margin-top:-100px;
+}
 
 .blocker{
     width: 50px;
@@ -68,6 +77,7 @@ nav {
     width: 50px;
 }
 .header{
+    margin-left: -12%;
     display: flex;
     width: 1650px;
     padding: .5em;
@@ -81,6 +91,7 @@ nav {
     position: relative;
     text-align: center;
     color: white;
+   
 }
 .birdfly{
     filter: brightness(40%);
@@ -92,7 +103,6 @@ nav {
     top: 40%;
     left: 50%;
     transform: translate(-50%, -50%);
-
 }
 .odin{
     color: rgb(206, 204, 204);
@@ -104,7 +114,6 @@ nav {
     transform: translate(-50%, -50%);
     animation: text 3s 1;
 }
-
 section {
     width: 100%;
     display: flex;
@@ -115,46 +124,39 @@ section {
     box-sizing: border-box;
     min-height: 50vh;
 }
-
 .header_right{
     flex-direction: row;
     display:flex;
-    margin-left:330px;
-    margin-right:330px;
+    margin-left: 7%;
+    width: 85%;
     margin-top: 20;
     margin-bottom: 20;
     animation: text 1s 1;
-
     
-
 }
-
-
 .h1{
     size: 50px;
 }
-
 .p{
     font-size:5px;
 }
-
 .txt{
     flex-direction: column;
     display:flex;
     margin-left:20px;
     font-size:14px;
 }
-
 .imgg{
     margin:20px;
 }
 .section_item{
     display: flex;
     flex-direction: row;
+    margin:40px;
 }
 .logotip{
-    margin: 50px;
-    margin-top: 150px;
+    margin: 5px;
+    margin-top: 10px;
     display: flex;
     align-items: center center;
     width: 100%;
@@ -166,7 +168,7 @@ section {
 }
 .srt-txt{
     text-align: center;
-    
+
 }
 .welcome{
     display: flex;
@@ -177,4 +179,13 @@ section {
 }
 .map{
     width: 100%;
+}
+.cas{
+    width: 100%;
+}
+hr{
+    width: 80%;
+}
+#colvo{
+    width: 90%;
 }
