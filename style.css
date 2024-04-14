@@ -1,4 +1,3 @@
-
 body {
     width: 100%;
     height: 100vh;
@@ -39,6 +38,7 @@ button:hover{
     color: red;
 }
 .nav-item {
+    display: flex;
     align-items: center center;
     padding: .5em;
     margin-right: 1em;
@@ -72,6 +72,7 @@ nav {
     width: 1650px;
     padding: .5em;
     color: white;
+    align-items: center;
     margin-right: 1em;
     justify-content: center;
 }
@@ -162,4 +163,18 @@ section {
 }
 .name{
     margin-left: 60px;
+}
+.srt-txt{
+    text-align: center;
+    
+}
+.welcome{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+.map{
+    width: 100%;
 }
